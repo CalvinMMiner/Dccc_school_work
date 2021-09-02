@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=coinType
+comment0.text=\r\n\ an\ object\ that\ extends\ from\ coin,\ holds\ four\ additional\ methods,\r\n\ a\ constructor\ and\ a\ toString\r\n\ \r\n\ the\ additional\ methods\ add\ a\ type\ and\ value\ to\ the\ coin\r\n
+comment1.params=
+comment1.target=coinType()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ coinTypesets\ the\ value\ and\ type\ to\ 1\ and\ penny\r\n
+comment2.params=
+comment2.target=void\ generateType()
+comment2.text=\r\n\ a\ method\ that\ generates\ a\ random\ type\ and\ value\ for\ the\ cointype\ object\ \r\n
+comment3.params=
+comment3.target=java.lang.String\ getType()
+comment3.text=\r\n\ method\ that\ gets\ the\ type\ String\ when\ called\r\n\ \r\n\ @return\ Type\ \ retuns\ the\ type\ Sting\ \r\n
+comment4.params=
+comment4.target=int\ getValue()
+comment4.text=\r\n\ method\ that\ gets\ the\ Value\ int\ when\ called\r\n\ \r\n\ @return\ Type\ \ retuns\ the\ Value\ int\ \r\n
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment5.text=\r\n\ This\ method\ overrides\ the\ toString()\ method\ from\ the\ coin\ parent\ class\ \ \ \ \ \r\n\ \r\n\ @return\ a\ String\ with\ coins\ original\ toString\ text\ +\ the\ type\ of\ coin\ and\ its\ value\r\n\ if\ the\ value\ is\ one\ it\ just\ prints\ cent,\ else\ wise\ it\ prints\ its\ type\ and\ value\r\n
+numComments=6

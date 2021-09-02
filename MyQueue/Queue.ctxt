@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=Queue
+comment0.text=\r\n\ class\ made\ to\ emulate\ a\ queue\ \r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=Queue()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ QueueT\r\n
+comment2.params=
+comment2.target=boolean\ isEmpty()
+comment2.text=\r\n\ returns\ true\ if\ the\ array\ is\ empty\r\n\ \r\n\ @return\ queue.isEmpty()\ -\ returns\ true\ or\ false\ baises\ on\ the\ queue\ length\r\n
+comment3.params=
+comment3.target=int\ size()
+comment3.text=\r\n\ gives\ the\ size\ of\ the\ array\r\n\ \r\n\ @return\ queue.size()\ -\ returns\ the\ size\ of\ the\ array\r\n
+comment4.params=i
+comment4.target=void\ add(java.lang.Object)
+comment4.text=\r\n\ adds\ and\ object\ the\ the\ end\ of\ the\ queue\r\n\ \r\n\ @param\ i\ -\ the\ object\ that\ will\ be\ added\ to\ the\ queue\r\n
+comment5.params=
+comment5.target=java.lang.Object\ poll()
+comment5.text=\r\n\ removes\ and\ returns\ the\ first\ item\ in\ the\ queue\r\n\ \r\n\ @return\ -\ queue.remove(0)\ -\ removes\ and\ returns\ the\ first\ item\ in\ the\ queue\r\n\ @return\ null\ -\ retun\ null\ if\ there\ is\ nothing\ in\ the\ queue\r\n
+comment6.params=
+comment6.target=java.lang.Object\ peek()
+comment6.text=\r\n\ \ returns\ the\ first\ item\ in\ the\ queue\r\n\ \r\n\ @return\ -\ queue.get(0)\ -\ returns\ the\ first\ item\ in\ the\ queue\r\n\ @return\ false\ -\ retun\ false\ if\ there\ is\ nothing\ in\ the\ queue\r\n
+comment7.params=
+comment7.target=java.lang.String\ toString()
+numComments=8

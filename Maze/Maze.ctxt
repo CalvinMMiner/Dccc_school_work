@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Maze
+comment0.text=\r\n\ creates\ and\ stores\ a\ maze\ within\ a\ two\ dimensional\ array,\ contains\ five\ methods\ that\ allow\ for\ the\r\n\ editing\ and\ veiwing\ of\ the\ maze\ data\r\n\r\n\ @11/12/19\r\n
+comment1.params=
+comment1.target=Maze()
+comment1.text=\r\n\ Default\ constructor\ for\ objects\ in\ class\ maze\r\n
+comment2.params=maze
+comment2.target=Maze(java.lang.String)
+comment2.text=\r\n\ constructor\ for\ objects\ in\ class\ maze\ that\ accepts\ outside\ paramiters\r\n\ \r\n\ @param\ Maze\ -\ a\ user\ provided\ text\ file\ containing\ the\ maze\ and\ its\ Dimensions\ \r\n
+comment3.params=
+comment3.target=void\ createBaseMaze()
+comment3.text=\r\n\ method\ that\ creates\ the\ maze\ by\ using\ the\ provided\ file\ and\ maze\ dimentions\r\n
+comment4.params=
+comment4.target=int[][]\ getMaze()
+comment4.text=\r\n\ returns\ the\ entire\ maze\ when\ called\ \r\n\ \r\n\ @return\ maze\ -\ the\ maze\ being\ stored\ by\ this\ object\r\n
+comment5.params=y\ x
+comment5.target=int\ getMazeTile(int,\ int)
+comment5.text=\r\n\ returns\ a\ single\ tile\ from\ the\ maze\ when\ called\ \r\n\ \r\n\ @param\ y\ -\ the\ y\ index\ of\ the\ requested\ tile\r\n\ @param\ x\ -\ the\ x\ index\ of\ the\ requested\ tile\r\n\ @return\ maze[y][x]\ -\ single\ tile\ from\ the\ maze\ being\ requested\r\n
+comment6.params=y\ x\ a
+comment6.target=void\ setMazeTile(int,\ int,\ int)
+comment6.text=\r\n\ changes\ a\ single\ specified\ tile\ from\ the\ maze\ when\ called\ \r\n\ \r\n\ @param\ y\ -\ the\ y\ index\ of\ the\ requested\ tile\r\n\ @param\ x\ -\ the\ x\ index\ of\ the\ requested\ tile\r\n\ @param\ x\ -\ the\ new\ value\ for\ the\ requested\ tile\r\n
+comment7.params=
+comment7.target=int\ getMazeDimensions()
+comment7.text=\r\n\ returns\ the\ Dimensions\ of\ the\ maze\ when\ called\ \r\n\ \r\n\ @return\ mazeDimensions\ -\ the\ Dimensions\ of\ the\ maze\ being\ stored\ by\ this\ object\r\n
+numComments=8

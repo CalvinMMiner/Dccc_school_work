@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=searchMethods
+comment0.text=\r\n\ a\ seperat\ class\ that\ holds\ the\ methods\ the\ searchlogic\ calls\r\n\ to\ modiffy\ the\ array\r\n
+comment1.params=
+comment1.target=void\ setHigh()
+comment2.params=position\ value\ array\ high
+comment2.target=int\ addOrRemove(int,\ int,\ int[],\ int)
+comment2.text=\r\n\ a\ method\ that,\ shold\ the\ array\ have\ space,\ either\ adds\ a\ new\ value\ to\ the\ array,\r\n\ or\ removes\ an\ old\ one\r\n\ \r\n\ @param\ position\ -\ the\ position\ in\ the\ array\ that\ is\ being\ changed\r\n\ @param\ value\ -\ the\ value\ that\ can\ be\ added\ to\ the\ array\r\n\ @param\ array\ -\ the\ array\ being\ modified\r\n\ @param\ high\ -\ the\ how\ many\ non\ zero\ integers\ are\ in\ the\ array\ \r\n\ @throws\ IOException\ -\ throws\ an\ exception\ so\ the\ pause\ method\ can\ be\ called\r\n
+comment3.params=array
+comment3.target=boolean\ proccesInput(int[])
+comment3.text=\r\n\ method\ that\ takes\ user\ input\ and\ puts\ it\ through\ a\ binarySearch,\ then\ runs\ the\ results\r\n\ through\ logic\ and\ gives\ the\ user\ the\ appropriate\ prompts\ and\ methods\r\n\ \r\n\ @param\ array\ -\ the\ array\ that\ the\ users\ input\ is\ potentaly\ modifying\r\n\ @throws\ IOException\ -\ throws\ an\ exception\ so\ the\ pause\ method\ can\ be\ called\r\n
+comment4.params=a\ low\ high\ value
+comment4.target=int\ search(int[],\ int,\ int,\ int)
+comment4.text=\r\n\ Finds\ a\ value\ in\ a\ range\ of\ a\ sorted\ array,\ \r\n\ using\ the\ binary\ search\ algorithm.\ \ \ \ *\ \r\n\ @param\ a\ the\ array\ in\ which\ to\ search\r\n\ @param\ low\ the\ low\ index\ of\ the\ range\r\n\ @param\ high\ the\ high\ index\ of\ the\ range\r\n\ @param\ value\ the\ value\ to\ find\r\n\ @return\ the\ index\ at\ which\ the\ value\ occurs,\ \r\n\ \ \ \ or\ -high\ if\ it\ does\ not\ occur\ in\ the\ array\r\n
+comment5.params=
+comment5.target=void\ pause()
+comment5.text=\r\n\ reused\ example\ function,\ pauses\ the\ program\r\n\ \r\n\ @throws\ e\ -\ throws\ IoExection\ pausing\ the\ program\r\n
+numComments=6

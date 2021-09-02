@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=Tree
+comment1.params=
+comment1.target=Tree()
+comment1.text=\r\n\ Constructs\ an\ empty\ tree.\r\n
+comment2.params=rootData
+comment2.target=Tree(java.lang.Object)
+comment2.text=\r\n\ Constructs\ a\ tree\ with\ one\ node\ and\ no\ children.\ \r\n\ @param\ rootData\ the\ data\ for\ the\ root\r\n
+comment3.params=subtree
+comment3.target=void\ addSubtree(Tree)
+comment3.text=\r\n\ This\ method\ adds\ a\ tree\ as\ a\ subtree\ child\ of\ the\ root.\r\n\ @param\ subtree\ -\ reference\ to\ a\ tree\ to\ be\ added\r\n
+comment4.params=
+comment4.target=int\ size()
+comment4.text=\r\n\ Computes\ the\ size\ of\ this\ tree.\ \ \ \ \ *\ \r\n\ @return\ the\ number\ of\ nodes\ in\ the\ tree\r\n
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment5.text=\r\n\ This\ method\ overrides\ Object's\ toString\ method\ \r\n\ @return\ string\ containing\ the\ tree\ root\ and\ its\ children\r\n
+numComments=6

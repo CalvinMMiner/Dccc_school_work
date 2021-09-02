@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=JoesGrocery
+comment0.text=\r\n\ the\ main\ class,\ contains\ a\ driver\ method\ that\ uses\ the\ register\ objects\r\n\ methods\ to\ simulate\ a\ store\r\n\r\n\ @Calvin\ M\ Miner\r\n\ @10/10/19\r\n
+comment1.params=
+comment1.target=void\ main()
+comment2.params=registers\ rnd\ checkoutTime
+comment2.target=int\ checkRegisters(Register[],\ java.util.Random,\ int)
+comment2.text=\r\n\ a\ method\ that\ check\ the\ registers\ to\ see\ the\ length\ of\ their\ \r\n\ lines,\ then\ adds\ a\ customer\ to\ the\ shortest\ open\ line.\ if\ \r\n\ there\ are\ no\ open\ lines\ a\ customer\ is\ added\ to\ a\ random\ line\r\n\ \r\n\ @param\ registers\ -\ the\ registers\ that\ the\ customer\ are\ added\ to\r\n\ @param\ rnd\ -\ a\ random\ class\ used\ if\ there\ are\ no\ open\ registers\r\n\ @return\ 0\ -\ returns\ 0\ if\ there\ is\ an\ empty\ register\r\n\ @return\ 1\ -\ returns\ 1\ if\ there\ is\ no\ open\ register\r\n
+numComments=3

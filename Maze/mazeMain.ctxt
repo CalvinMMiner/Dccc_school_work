@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=mazeMain
+comment0.text=\r\n\ creates\ a\ maze\ from\ a\ txt\ file,\ then\ uses\ a\ simulated\ mouse\ to\ travers\ the\ \r\n\ maze.\ the\ final\ successful\ route\ is\ printed\ to\ the\ console\r\n\r\n\ @Calvin\ M\ Miner\r\n\ @11/12/19\r\n
+comment1.params=
+comment1.target=void\ main()
+comment1.text=\r\n\ uses\ a\ scanner\ to\ read\ in\ the\ dimentions\ \ of\ a\ text\ based\ square\ maze\ and\ calls\ a\ \r\n\ method\ to\ \ store\ its\ contents\ in\ a\ two\ dimensional\ array\ then\ print\ the\ results.\ a\r\n\ user\ is\ then\ asked\ to\ choose\ the\ entrance\ of\ the\ maze,\ after\ which\ the\ "mouse"\ goes\r\n\ through\ the\ maze.\ the\ final\ path\ to\ the\ exit\ is\ then\ printed\r\n
+comment2.params=maze
+comment2.target=void\ printBaseMaze(Maze)
+comment2.text=\r\n\ method\ that\ creates\ and\ prints\ the\ maze\ with\ boarder\ numbers\ for\ the\ user,\ anditonal\ \r\n\ prints\ give\ the\ maze\ dimensions\ and\ ask\ the\ user\ for\ the\ starting\ position\ of\ the\ mouse\r\n\ update\:\ modified\ the\ x/y\ markers\ to\ properly\ display\ double\ didgets\r\n\ @param\ maze\ -\ the\ object\ that\ contains\ the\ maze\ and\ its\ methods,\ allows\ this\ method\ to\ get\ the\ Dimensions\ of\ the\r\n\ maze\ and\ print\ the\ contents\ of\ maze\r\n
+comment3.params=maze\ sc
+comment3.target=java.util.Stack\ entrance(Maze,\ java.util.Scanner)
+comment3.text=\r\n\ a\ method\ that\ allows\ the\ user\ to\ choose\ the\ start\ of\ the\ maze\ from\ an\ open\ space\ on\ an\ edge\r\n\ will\ loop\ throughthe\ selection\ procces\ if\ the\ user\ inputs\ an\ invalid\ entrance\r\n\ \r\n\ @param\ Maze\ -\ the\ object\ that\ hold\ the\ maze\ and\ its\ methods,\ what\ the\ method\ usees\ to\ check\ for\ entrances\ \r\n\ \r\n\ @return\ steps\ -\ returns\ the\ location\ of\ the\ exit\ chosen\ by\ the\ user\r\n
+numComments=4

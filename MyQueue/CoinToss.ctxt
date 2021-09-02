@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=CoinToss
+comment0.text=\r\n\ class\ that\ uses\ coinType\ to\ do\ create\ an\ array\ of\ seven\ coins\ and\ run\ through\ its\ \r\n\ methods\ then\ display\ the\ results\ and\ a\ sum\ of\ the\ heads\ flips\r\n\ moddified\ to\ use\ the\ QueueT\ class\r\n\r\n\ @author\ Calvin\ M\ Miner\r\n\ @version\ 10/22/19\r\n
+comment1.params=
+comment1.target=void\ Main()
+comment1.text=\r\n\ a\ main\ method\ that\ uses\ a\ for\ loop\ to\ demonstrate\ the\ \r\n\ methods\ in\ the\ coin\ and\ coin\ Type\ objects\ then\r\n\ prints\ out\ the\ total\ value\ of\ all\ head\ side\ up\ flips\r\n\ \r\n
+numComments=2

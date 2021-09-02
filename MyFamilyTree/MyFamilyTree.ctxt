@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=MyFamilyTree
+comment0.text=\r\n\ This\ program\ creates\ a\ family\ tree\ and\ then\ prints\ it\ and\ the\ total\ size\ of\ the\ tree\r\n\ \r\n\ @Calvin\ M\ Miner\r\n\ @version\ 11/14/16\r\n
+comment1.params=
+comment1.target=void\ main()
+comment1.text=\ uses\ the\ provided\ tree\ class\ to\ create\ a\ direct\ line\ from\ me\r\n\ to\ my\ great\ grandfather\ and\ prints\ each\ root\r\n\ followed\ by\ the\ total\ size\ of\ the\ tree\r\n
+numComments=2

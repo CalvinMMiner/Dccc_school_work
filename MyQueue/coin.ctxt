@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=coin
+comment0.text=\r\n\ coin\ object,\ holds\ two\ methods,\ the\ default\ constructor\ and\ a\ toString\r\n\ \r\n\ the\ methods\ assigne\ a\ face\ to\ the\ coin\ and\ \r\n\ allow\ it\ to\ be\ changed\ via\ random\ boolean\ generation\r\n
+comment1.params=
+comment1.target=coin()
+comment1.text=\r\n\ default\ constructor\ that\ makes\ a\ coin\ thats\ "face\ up"\r\n
+comment2.params=
+comment2.target=void\ flipCoin()
+comment2.text=\r\n\ method\ that\ randomly\ sets\ the\ value\ stored\ in\ face\r\n
+comment3.params=
+comment3.target=boolean\ getFace()
+comment3.text=\r\n\ method\ that\ gets\ the\ value\ of\ face\r\n\ \r\n\ @return\ face\ \ returns\ face\r\n
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment4.text=\r\n\ This\ method\ creates\ the\ toString()\ method\ for\ the\ coin\ object\ \r\n\ @return\ a\ String\ with\ coins\ face\r\n
+numComments=5

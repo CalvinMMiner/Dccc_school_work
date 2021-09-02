@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=mouse
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ mouse\ here.\r\n\r\n\ @version\ 11/19/19\r\n
+comment1.params=
+comment1.target=mouse()
+comment1.text=\r\n\ default\ Constructor\ for\ the\ mouse\ object\r\n
+comment2.params=startX\ startY
+comment2.target=mouse(int,\ int)
+comment2.text=\r\n\ Constructor\ for\ the\ mouse\ object\ that\ sets\ current\ x&y\ to\ user\ input\ values\r\n\ \r\n\ @param\ startX\ -\ the\ start\ value\ for\ currentX\r\n\ @param\ startY\ -\ the\ start\ value\ for\ currentY\r\n
+comment3.params=maze\ steps
+comment3.target=boolean\ traverseMaze(Maze,\ java.util.Stack)
+comment3.text=\r\n\ method\ that\ loops\ through\ a\ set\ of\ logic\ desined\ to\ move\ the\ "mouse"\ forwards\ through\ the\ maze\ until\ the\ mouse\ either\ finds\ the\ end,\ or\ \r\n\ returns\ to\ the\ entrance.\ once\ the\ mouse\ reaches\ the\ end\ a\ second\ loop\ is\ used\ to\ remove\ unnecessary\ modifications\ made\ to\ the\ maze\ \r\n\ during\ traversal\r\n\ \r\n\ @param\ maze\ -\ the\ maze\ the\ "mouse"\ is\ in\r\n\ @param\ steps\ -\ Stack\ that\ holds\ the\ steps\ teken\ by\ the\ mouse\r\n\ \r\n\ @return\ false\ -\ returns\ false\ if\ the\ mouse\ returned\ to\ the\ entance\r\n\ @return\ true\ -\ returns\ true\ if\ the\ mouse\ found\ the\ exit\r\n
+comment4.params=Maze
+comment4.target=java.util.ArrayList\ CheckDirections(Maze)
+comment4.text=\r\n\ calls\ checkDirection\ to\ check\ the\ tiles\ surrounding\ the\ mouse,\ returns\ a\ string\ containing\ the\ valid\ directions\ found\r\n\ \r\n\ @param\ Maze\ -\ the\ array\ that\ holds\ the\ positions\ being\ checked\r\n\ \r\n\ @return\ Directions\ -\ returns\ the\ valid\ paths\ found\ by\ the\ method\r\n
+comment5.params=y\ x\ maze
+comment5.target=java.lang.String\ checkDirection(int,\ int,\ Maze)
+comment5.text=\r\n\ checks\ the\ given\ position\ for\ 0,\ successful\ returns\ S,\ and\ null\ if\ not,\ if\ the\ x\ or\ y\ go\ out\ of\ \r\n\ bounds\ it\ incriments\ OutOfBounds\ by\ 1\r\n\ \r\n\ @param\ x\ -\ the\ x\ cordinate\ of\ the\ position\ being\ checked\r\n\ @param\ Y\ _\ the\ y\ cordinate\ of\ the\ position\ being\ checked\r\n\ @param\ Maze\ -\ the\ maze\ that\ containes\ the\ position\r\n\ \r\n\ @return\ "S"\ -\ returns\ S\ if\ the\ position\ is\ 0\r\n\ @return\ "null"\ -\ returns\ null\ if\ the\ position\ is\ not\ 0\r\n
+comment6.params=intersectionCoordinates\ steps\ maze\ StartX\ StartY
+comment6.target=void\ backTrack(java.util.Stack,\ java.util.Stack,\ Maze,\ int,\ int)
+comment6.text=\r\n\ method\ that\ iterates\ through\ steps\ to\ return\ the\ mouse\ to\ the\ last\ intersection,\ returns\ any\ \r\n\ marked\ positions\ to\ 0\ by\ calling\ the\ setMazeTile\ method,\ excluding\ the\ position\ adjacent\ to\ the\ intersection\r\n\ \r\n\ @param\ intersectionCoordinates\ -\ the\ location\ of\ the\ last\ valid\ intersection\ for\ the\ method\ to\ \r\n\ return\ to\r\n\ @param\ steps\ -\ the\ X\ and\ Y\ locations\ of\ the\ steps\ the\ mouse\ took\ to\ get\ where\ it\ is,\ replayed\ in\r\n\ reverse\ to\ return\ to\ the\ intersection\r\n\ @param\ Maze\ -\ the\ array\ that\ holds\ the\ maze\ being\ changed\r\n
+numComments=7

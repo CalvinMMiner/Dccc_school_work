@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=ToDoList
+comment1.params=
+comment1.target=void\ main()
+comment1.text=\r\n\ main\ method\ for\ this\ program\r\n\ asks\ for\ the\ length\ of\ the\ array\ and\ creates\ a\ simple\ menu\ that\ lets\ the\ user\ select\ methods\r\n
+comment2.params=list\ length
+comment2.target=void\ printTasks(java.lang.String[],\ int)
+comment2.text=\r\n\ this\ function\ prints\ the\ list\ array\r\n\ \r\n\ @param\ list\ -\ the\ array\ being\ printed\r\n
+comment3.params=in
+comment3.target=char\ selectAction(java.util.Scanner)
+comment3.text=\r\n\ this\ functionis\ a\ select\ action\ method\ from\ example\ code\r\n\ returns\ a\ character\ to\ the\ menu\ method\r\n\ \r\n\ @param\ \ sc\ -\ reads\ user\ input\ \r\n\ @return\ in.next()\ -\ returns\ char\ to\ menu\ method\r\n
+comment4.params=list\ sc\ length
+comment4.target=void\ createFirstTasks(java.lang.String[],\ java.util.Scanner,\ int)
+comment4.text=\r\n\ a\ method\ that\ populates\ the\ inital\ task\ list\r\n\ \r\n\ @param\ list\ -\ the\ list\ that\ the\ tasks\ are\ being\ added\ to\r\n\ @param\ sc\ -\ the\ scanner\ that\ reads\ user\ input\r\n\ @param\ length\ -\ int\ that\ tells\ the\ method\ how\ many\ items\ it\ needs\ to\ add\r\n\ \r\n
+comment5.params=list\ sc\ length
+comment5.target=int\ addTask(java.lang.String[],\ java.util.Scanner,\ int)
+comment5.text=\r\n\ \ this\ function\ adds\ a\ task\ to\ the\ list\r\n\ \ \r\n\ \ @param\ list\ -\ the\ array\ that\ is\ having\ an\ element\ added\r\n\ \ @param\ \ sc\ -\ reads\ user\ input\ into\ the\ list\ array\r\n\ \ @param\ length\ -\ gives\ the\ method\ the\ length\ of\ the\ current\ list\r\n
+comment6.params=list\ sc\ choice\ length
+comment6.target=int\ changeOrRemoveTask(java.lang.String[],\ java.util.Scanner,\ char,\ int)
+comment6.text=\r\n\ this\ function\ removes\ or\ changes\ an\ element\ in\ the\ list\ array\r\n\ \r\n\ @param\ list\ -\ the\ array\ that\ is\ having\ an\ element\ removed\r\n\ @param\ \ sc\ -\ reads\ user\ input\ into\ the\ Task\ int\r\n\ @param\ choice\ -\ tells\ the\ if\ statment\ wether\ to\ user\ want\ to\ change\ or\ remove\ an\ item\ in\ the\ list\r\n\ @throws\ IOException\ -\ throws\ IoExection\ so\ the\ pause\ method\ can\ be\ executed\r\n
+comment7.params=list\ length
+comment7.target=void\ removeSpace(java.lang.String[],\ int)
+comment7.text=\r\n\ a\ function\ that\ moves\ empty\ elements\ to\ the\ end\ of\ the\ list\ array\r\n\ \r\n\ @return\ list\ -\ updates\ the\ list\ array\ to\ include\ the\ changes\ made\r\n
+comment8.params=
+comment8.target=void\ pause()
+comment8.text=\r\n\ reused\ example\ function,\ pauses\ the\ program\r\n\ \r\n\ @throws\ e\ -\ throws\ IoExection\ pausing\ the\ program\r\n
+numComments=9

@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Conversion
+comment0.text=\r\n\ takes\ \ string\ inputs\ and\ passes\ it\ to\ a\ method\ that\ \r\n\ turns\ them\ into\ an\ int,\ these\ values\ are\ sumed\ and\ averaged\ \r\n\r\n\ @author\ Calvin\ M\ Miner\r\n\ @version\ 9/19/19\r\n
+comment1.params=
+comment1.target=void\ main()
+comment1.text=\r\n\ main\ method\ for\ the\ conversion\ program,\ initilizes\ variables\ and\ creates\ new\ classes\r\n\ uses\ a\ do\ loop\ to\ repeatedly\ call\ the\ stringToInt\ method\ until\ the\ user\ inputs\ a\ \r\n\ non-number.\ it\ will\ subtract\ from\ the\ sum\ if\ you\ submit\ a\ negitive\ number\r\n\ once\ a\ non-number\ is\ input\ tthe\ sum\ and\ average\ of\ the\ input\ numbers\ is\ printed\r\n
+comment2.params=Number
+comment2.target=int\ stringToInt(java.lang.String)
+comment2.text=\r\n\ method\ that\ uses\ recursion\ to\ create\ and\ int\ baised\ off\ of\ a\ string\r\n\ has\ an\ if\ statment\ to\ skip\ the\ first\ char\ if\ the\ user\ inputs\ a\ negitive\ number\r\n\ \r\n\ @param\ Number\ -\ string\ that\ is\ used\ to\ make\ the\ int\r\n\ @return\ stringToInt\ -\ returns\ the\ number\ made\ from\ the\ string\r\n
+numComments=3

@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=SearchArray
+comment0.text=\r\n\ a\ class\ that\ hold\ the\ logic\ for\ the\ menu,\ prompts\ the\ user\ to\ use\ \r\n\ the\ methods\ to\ modify\ an\ array\r\n\r\n\ @Calvin\ M\ Miner\r\n\ @10/7/19\r\n
+comment1.params=
+comment1.target=void\ main()
+comment1.text=\r\n\ main\ method\ of\ the\ searchArray\ creates\ the\ array\ and\ loops\ through\ the\ logic\ until\ \r\n\ the\ user\ terminates\ the\ program\r\n\ \r\n\ @throws\ IOException\ -\ throws\ an\ exception\ so\ the\ pause\ method\ can\ be\ called\r\n\ by\ proccesInput\r\n
+numComments=2

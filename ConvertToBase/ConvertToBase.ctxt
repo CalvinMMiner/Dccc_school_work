@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=ConvertToBase
+comment0.text=\r\n\ takes\ a\ user\ input\ number\ and\ converts\ it\ into\ a\ diffrent\ base\r\n\r\n\ @Calvin\ M\ Miner\r\n\ @10/29/19\r\n
+comment1.params=
+comment1.target=void\ main()
+comment1.text=\r\n\ the\ main\ method,\ contains\ the\ programs\ core\ logic,\ which\ uses\ do\ loop\r\n\ to\ continuously\ prompt\ the\ user\ for\ a\ number\ and\ a\ base,\ which\ is\ then\r\n\ sent\ to\ ConvertToBase\ as\ parameters.\ a\ for\ loop\ then\ iterates\ through\r\n\ Stack\ to\ print\ the\ results.\ this\ continues\ until\ the\ user\ enters\ 0\r\n\ \r\n
+comment2.params=Num\ Base\ Stack
+comment2.target=int\ ConvertToBase(int,\ int,\ stack)
+comment2.text=\r\n\ a\ method\ that\ converts\ a\ given\ number\ from\ base\ 10\ to\ a\ diffrent\ base\r\n\ \r\n\ @param\ Num\ -\ the\ number\ that\ will\ be\ converted\r\n\ @param\ Base\ -\ the\ number\ that\ Num\ will\ be\ converted\ to\r\n\ @param\ Stack\ -\ the\ Stack\ that\ will\ hold\ the\ results\ of\ the\ conversion\r\n\ @return\ length\ -\ the\ length\ of\ the\ new\ number\r\n
+numComments=3
