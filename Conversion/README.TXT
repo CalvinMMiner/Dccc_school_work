@@ -1,2 +1,2 @@
-PURPOSE OF PROJECT:takes a user input number and converts it into a diffrent base system bettwen 2 and nine
-USER INSTRUCTIONS: input a number and then the new base, enter zero to end the loop
+PURPOSE OF PROJECT: Takes string inputs and passes it to a method that turns them into an int, these values are sumed and averaged 
+USER INSTRUCTIONS: input numbers until satisfied, then enter q to see the sum and average
