@@ -1,12 +1,2 @@
-------------------------------------------------------------------------
-This is the project README file. Here, you should describe your project.
-Tell the reader (someone who does not know anything about this project)
-all he/she needs to know. The comments should usually include at least:
-------------------------------------------------------------------------
-
-PROJECT TITLE: ToDoList
-PURPOSE OF PROJECT: 
-VERSION or DATE: 1.0
-HOW TO START THIS PROJECT:
-AUTHORS: Calvin M. Miner
-USER INSTRUCTIONS:
+PURPOSE OF PROJECT: This program uses user input to create a task list then provides a simple menu the user can use to edit their list
+USER INSTRUCTIONS: run the main method the follow the prompts 
