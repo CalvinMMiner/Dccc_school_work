@@ -1,12 +1,3 @@
-------------------------------------------------------------------------
-This is the project README file. Here, you should describe your project.
-Tell the reader (someone who does not know anything about this project)
-all he/she needs to know. The comments should usually include at least:
-------------------------------------------------------------------------
-
-PROJECT TITLE:
-PURPOSE OF PROJECT:
-VERSION or DATE:
-HOW TO START THIS PROJECT:
-AUTHORS:
-USER INSTRUCTIONS:
+PROJECT TITLE: Maze
+PURPOSE OF PROJECT: creates a maze from a txt file, then uses a simulated mouse to travers the maze. the final successful route is printed to the console
+USER INSTRUCTIONS: user imputs the X and Y cordinates of the maze entrance. changeing the maze requires editing either the maze file or the main method   
