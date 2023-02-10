@@ -1,0 +1,319 @@
+-print out address:
+#include <iostream>
+using namespace std;
+int main()
+{
+cout<<"-----------"<<endl;
+
+return 0;
+}
+
+-average:
+	#include <iostream>
+using namespace std;
+int main()
+{
+int a,b,c;
+cout<<"please enter the numbers: "<<endl;
+cin>>a>>b>>c;
+
+cout<<"the average of the numbers is: "<<((a+b+c)/3);
+return 0;
+}
+
+-cube:
+#include <iostream>
+using namespace std;
+int main()
+{
+int num;
+cout<<"please enter a number: ";
+cin>>num;
+cout<<"the cube of "<<num<<" is: "<<(num*num*num);
+return 0;
+}
+
+-2 decimal places:
+#include <iostream>
+#include <iomanip>
+using namespace std;
+int main()
+{
+double S;
+
+cout<<"any number input will have two numbers past the decimal: ";
+cin>>S;
+
+cout << fixed << setprecision(2) << "the result is: "<<(S);
+}
+
+-area of a square:
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main()
+{
+int S;
+
+cout<<"you are trying to find the area of a square, the length of one side is: ";
+cin>>S;
+
+cout<<"the area of the square is: "<<(S*S);
+}
+
+-initials:
+#include <iostream>
+#include <string>
+using namespace std;
+int main()
+{
+string fn ,ln;
+cout << "What is your first name? ";
+cin>>fn;
+cout << "What is your last name? ";
+cin>>ln;
+cout << "your initials are " << fn[0]<<ln[0];
+}
+
+-string length:
+#include <iostream>
+#include <string>
+using namespace std;
+int main()
+{
+string word;
+cout << "enter a word: ";
+cin>>word;
+cout << "the word is " << word.size()<<" characters long";
+}
+
+-find smaller:
+#include <iostream>
+using namespace std;
+int main()
+{
+int a,b;
+cout<<"please enter the first number: ";
+cin>>a;
+cout<<"please enter the second number: ";
+cin>>b;
+
+if (a==b){cout<<"the numbers are equal";}
+else if (a>b){cout<<b<<" is the smaller number";}
+else{cout<<a<<" is the smaller number";}
+return 0;
+}
+
+-switch program:
+#include <iostream>
+using namespace std;
+int main()
+{
+
+int a;
+
+cout << "enter a number that is between 1 and 4: ";cin>>a;
+
+switch(a){case(1):cout<<"wrong";break;
+case(2):cout<<"nope";break;
+case(3):cout<<"right";break;
+case(4):cout<<"try again";break;
+default:cout<<"that was not even a option";}
+
+return 0;
+}
+
+-multiple choice question:
+using namespace std;
+int main()
+{
+int input;
+
+cout<<"dogs are:\n 1)better than cats\n 2)far better than cats\n 3)amazing\n 4)the bane of my existance\n";
+cin>>input;
+switch(input)
+{
+case 1:cout<<"good to see you are on the right side\n";break;
+case 2:cout<<"you sure are enthusiastic\n";break;
+case 3:cout<<"true\n";break;
+case 4:cout<<"...also true\n";break;
+default:cout<<"that was not even a option\n";
+}
+
+cout<<"next up, you eat:\n 1)a lot\n 2)healthy\n 3)nothing\n 4)cake\n";
+cin>>input;
+switch(input)
+{
+case 1:cout<<"you and me both";break;
+case 2:cout<<"good on you";break;
+case 3:cout<<"that seems like a bad idea";break;
+case 4:cout<<"who dosent like cake";break;
+default:cout<<"you do you i guess";
+}
+}
+
+-hello world 5 times:
+#include<iostream>
+ using namespace std;
+ int main()
+ {
+	 for (int loop = 1; loop <= 5; loop++){cout << "hello world! \n";}
+ }
+
+-smallest:
+#include <iostream>
+#include <string>
+int main()
+{
+int loop,proc,smol=9999;
+cout << "how many numbers do you want to enter? ";cin>>loop;
+
+for (int i=0;i<loop;i++)
+{
+cout << "enter a number: ";cin>>proc;
+if(proc<smol){smol=proc;}
+}
+
+cout << "the smallest number is: "<<smol;
+
+}
+
+-while average:
+#include <iostream>
+using namespace std;
+int main() {
+int T=1,sum=0,num=0,temp=0;
+while(T==1){cout<<"please enter a number: ";
+cin>>temp; sum+=temp; num++;
+cout<<"have you finished inputing your numbers? (1/0) ";cin>>T;}
+
+cout<<"the average is: "<<(sum/num);
+}
+ 
+
+-average2:
+#include <iostream>
+using namespace std;
+int main() 
+{
+double T=1,sum=0,num=0,temp=0;
+do{cout<<"please enter a number: ";cin>>temp;if(temp==0){T=0;}
+else{sum+=temp; num++;}}while(T==1);
+cout<<"the average is: "<<(sum/num);
+}
+
+-divisible by 5:
+#include <iostream>
+using namespace std;
+int main() 
+{
+int num;
+cout<<"enter a number: ";cin >>num;
+if(num%5==0){cout<<num<<" is divisable by five";}
+else{cout<<num<<" is not divisable by five";}
+}
+
+-guess:
+#include <iostream>
+using namespace std;
+int main()
+{
+int num;
+cout << "enter a number that is between 1 and 5: ";cin>>num;
+switch(num){case(1):cout<<"no";break;
+case(2):cout<<"incorect";break;
+case(3):cout<<"you got it";break;
+case(4):cout<<"try again";break;
+case(5):cout<<"nope";break;
+default:cout<<"out of range";}
+}
+
+-hello world again:
+	#include <iostream>
+using namespace std;
+int main(){for(int i;i<5;i++){cout<<"hello world\n";}}
+
+-product:
+#include <iostream>
+using namespace std;
+int main(){int a=1,b=1;
+while(a>=0){b*=a;cout<<"enter a number: ";cin>>a;} 
+cout<<"the product of your inputs is: "<<b;}
+
+-array:
+#include <iostream> 
+using namespace std;
+int main(){
+int a [10]= {1,2,3,4,5,6,7,8,9,10};
+for(int i; i<10; i++){cout<<a[i]<<"\n";}
+}
+
+-area of a triangle:
+	#include <iostream>
+using namespace std;
+int area(int base,int height);
+int main(){
+int base,height;
+cout<<"input the base and height of the triangle ";cin>>base>>height;
+cout<<area(base,height);
+}
+int area(int base,int height){
+int Area = .5*(base*height);
+return Area;
+}
+
+-inline sum:
+using namespace std;
+inline int sum(int A,int B){return A+B;}
+int main()
+{
+float a,b;
+cout<<"please enter two numbers: ";cin>>a>>b;
+cout<<sum(a, b);
+}
+
+-square object:
+	#include <iostream>
+using namespace std;
+class square
+{
+public:
+double length;
+square(){length = 5;}
+square(double newlength){length = newlength;}
+double getArea(){return length*length;}
+};
+int main()
+{
+square squareA(7);
+square squareB(12.5);
+square squareC(42);
+
+cout << "The area of a square with a side length of: " << square().length << " is " << square().getArea();
+cout << "\nThe area of a square with a side length of: " << squareA.length << " is " << squareA.getArea();
+cout << "\nThe area of a square with a side length of: " << squareB.length << " is " << squareB.getArea();
+cout << "\nThe area of a square with a side length of: " << squareC.length << " is " << squareC.getArea();
+ 
+squareB.length = 3.141;
+cout << "\n\nThe area of a square with a side length of: "<< squareB.length << " is " << squareB.getArea() << endl;
+}
+
+-square object 2:
+#include <iostream>
+using namespace std;
+class square
+{
+public:
+double length;
+square();square(double newlength);double getArea();
+};
+square::square(){length = 5;}
+square::square(double newlength){length = newlength;}
+double square::getArea(){return length*length;}
+int main()
+{
+square squareA(10);
+cout << "The area of a square with a side length of: " << square().length << " is " << square().getArea();
+cout << "\nThe area of a square with a side length of: " << squareA.length << " is " << squareA.getArea();
+}
+
