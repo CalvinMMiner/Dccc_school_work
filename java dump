@@ -1,0 +1,452 @@
+Largest of three
+import java.util.Scanner;
+
+public class GreatestOfThree
+{
+
+     public static void main(String []args)
+     {
+        Scanner in = new Scanner(System. in);
+        int greatest;
+        System.out.print("please enter the first number: "); int num1 = in.nextInt();
+        System.out.print("please enter the second number: "); int num2 = in.nextInt();
+        System.out.print("please enter the third number: "); int num3 = in.nextInt();
+
+        if(num1>num2&&num1>num3){greatest=num1;}
+        else if(num2>num3){greatest=num2;}
+        else{greatest=num3;}
+        
+        System.out.println("the largest number is: " + greatest);
+     }
+}
+
+
+Magic Eight Ball
+import java.util.Random; 
+
+public class EightBall {
+    public static void main(String args[]) {
+        
+        Random rand = new Random(); 
+        int Eight = rand.nextInt(20)+1;
+
+        String Givenfortune; 
+        switch (Eight){
+case 1:    Givenfortune = "It is certain"; break;
+            case 2:    Givenfortune = "As I see it, yes"; break;
+            case 3:    Givenfortune = "It is decidedly so"; break;
+            case 4:    Givenfortune = "Without a doubt"; break;
+            case 5:    Givenfortune = "Yes - definitely"; break;
+            case 6:    Givenfortune = "You may rely on it"; break;
+            case 7:    Givenfortune = "Most likely"; break;
+            case 8:    Givenfortune = "Outlook good"; break;
+            case 9:    Givenfortune = "Yes"; break;
+
+            case 11:  Givenfortune = "Reply hazy, try again"; break;
+            case 12:  Givenfortune = "Ask again later"; break;
+            case 13:  Givenfortune = "Better not tell you now"; break;
+            case 14:  Givenfortune = "Cannot predict now"; break;
+            case 15:  Givenfortune = "Concentrate and ask again"; break;
+            case 16:  Givenfortune = "Don't count on it"; break;
+            case 17:  Givenfortune = "My reply is no"; break;
+            case 18:  Givenfortune = "My sources say no"; break;
+            case 19:  Givenfortune = "Outlook not so good"; break;
+            case 20:  Givenfortune = "Very doubtful"; break;
+            default:   Givenfortune = "please repeat your question";}
+ 
+        System.out.println(Givenfortune);
+    }
+}
+
+For loop X10 with -6 as the exit number
+import java.util.Scanner;
+
+public class ForLoopX10 {
+
+public static void main(String args[]) 
+    {
+        Scanner in = new Scanner(System. in);int sum =0;
+
+        for(int Loop=1; Loop<11; Loop++) 
+        {System.out.print("please enter a number: ");int input = in.nextInt();sum+=input;
+        if(input==-6){break;}}
+        
+        System.out.println("the sum of your numbers is: "+sum);
+    }}
+
+
+While loop product with user input and 0 as the exit
+import java.util.Scanner;
+
+public class WhileLoopProduct {
+
+public static void main(String args[]) {
+        Scanner in = new Scanner(System. in);int product=1,Base=1;
+
+        while(Base!=0)
+        {System.out.print("please enter a number: ");int input = in.nextInt();
+        if(input==0){Base=0;}else{product*=input;}}
+        
+        System.out.println("the product of your numbers is: "+product);
+    }}
+
+Finding the average of an array with a method
+
+public class ArrayThroughMethod{
+
+     public static void main(String []args){
+        double[] Ray={6,8,2,7,9,4,7};
+        System.out.println(AverageValue(Ray));}
+     
+     public static double AverageValue(double[] Value){
+         double total=0,a=0;
+         for(int i=0;i<Value.length;i++){
+             total+=Value[i];a++;
+         }
+        return total/a;}
+    
+}
+
+Count down with a for loop - 2,4,6,8 who do we appreciate
+public class countDown{
+
+     public static void main(String []args){
+         for(int i=2; i<9;i+=2){
+            System.out.println(i);}
+        System.out.println("Who do we appreciate!");
+     }
+}
+
+Random goodwill message with switch statement
+
+import java.util.Random; 
+
+public class RandoGoodWill{
+    public static void main(String args[]) {
+        
+    Random rand = new Random(); 
+    int goodwill = rand.nextInt(4)+1;
+
+    String message ; 
+    switch (goodwill){
+        case 1: message = "have a nice day"; break;
+        case 2: message = "things get better"; break;
+        case 3: message = "you can do it"; break;
+        case 4: message = "I suck at encouragement"; break;
+        default:message = "something has gon wrong";}   
+    System.out.println(message);}
+}
+
+Printing out User input until -3 is input
+
+import java.util.Scanner;
+
+public class UserInput {
+
+public static void main(String args[]) {
+        Scanner in = new Scanner(System. in);int Base=0;
+
+        while(Base==0)
+        {System.out.print("please enter a number: ");int input = in.nextInt();
+        if(input==-3){break;}else{System.out.println(input);}}
+        
+    }}
+
+Finding the smallest number with a method
+
+import java.util.Scanner;
+
+public class SmallerNum {
+
+public static void main(String args[]) {
+        Scanner in = new Scanner(System. in);
+
+        System.out.print("please enter the first number: ");int A = in.nextInt();
+        System.out.print("please enter the second number: ");int B = in.nextInt();
+        System.out.println("the smallest number is: "+Smallest(A,B));}
+        
+public static int Smallest(int A, int B){
+    if(A>B){return A;}else{return B;}}
+    
+}
+
+Printing a multidimensional array 
+
+public class MoreArray{
+
+     public static void main(String []args){
+            int[][] MAray = {{5,9,2}, {6,6,6}, {7,4,3}};
+            for(int i=0;i<MAray.length;i++)
+                {System.out.println("");
+                for(int j=0;j<MAray[i].length;j++)
+                {System.out.print(MAray[i][j]);}}
+     }
+}
+
+
+Java object with three variables (derived)
+
+Original:
+class Student{private int id;private String name;public Student()
+{id = 8;name = "John";}
+public int getid(){return id;}
+public String getname(){return name;}
+public void setid(int newid){id = newid;}
+public void setname(String newname){name = newname;}
+public String toString(){String result = Integer.toString(id)+" "+name;return result;}}
+
+class TestStudent1{public static void main(String args[]){
+Student s0=new Student();
+System.out.println(s0);Student s1=new Student();
+s1.setid(312);s1.setname("Patrick");System.out.println("ID is " + s1.getid());
+System.out.println("The student name is " + s1.getname());}}
+
+
+My version: 
+
+class Student
+    {private int id;private String name;private int zip;
+    public Student(){id = 8;name = "John";zip =19090;}
+    public int getid(){return id;}
+    public void setid(int newid){id = newid;}
+    public int getZip(){return zip;}
+    public void setZip(int newZip){zip = newZip;}
+    public String getname(){return name;}
+    public void setname(String newname){name = newname;}}
+
+public class TestStudent1{public static void main(String args[])
+    {Student NewStudent=new Student();
+    NewStudent.setname("gavin");System.out.println("The students name is: " + NewStudent.getname());
+    NewStudent.setid(642);System.out.println("their student ID is: " + NewStudent.getid());
+    NewStudent.setZip(13487);System.out.println("their zip code is: "+NewStudent.getZip());}}
+
+
+Java inheritance with two “children” (derived)
+
+Original:
+class Animal{
+    public Animal(){system.out.println("A new animal has been created!");}
+    public void sleep(){system.out.println("An animal sleeps...");}
+    public void eat(){System.out.println("An animal eats...");}}
+public class Cat extends Animal{
+    public Cat(){
+        super();
+        System.out.println("A new cat has been created!");}
+        public void sleep(){System.out.println("A cat sleeps...");}
+        public void purr(){System.out.println("A cat purrs...");}
+        public void eat(){System.out.println("An cat eats...");}}
+public class MyClass {            
+    public static void main(String args[]){
+        Cat demo = new Cat();
+        demo.eat();
+        demo.sleep();
+        demo.purr();}}
+
+My version:
+class Animal{
+    public Animal(){System.out.println("A new animal has been created!");}
+    public void sleep(){System.out.println("An animal sleeps...");}
+    public void eat(){System.out.println("An animal eats...");}}
+    
+class Cat extends Animal{
+    public Cat(){
+        System.out.println("A new cat has been created!");}
+        public void sleep(){System.out.println("A cat sleeps...");}
+        public void purr(){System.out.println("A cat purrs...");}
+        public void eat(){System.out.println("An cat eats...");}}
+         
+
+class Tiger extends Animal{
+    public Tiger(){
+        System.out.println("A new Tiger has been created!");}
+        public void hunt(){System.out.println("A tiger hunts...");}
+        public void roar(){System.out.println("A tiger roar's...");}
+        public void feast(){System.out.println("An tiger feasts...");}}
+         
+public class test{
+    public static void main(String[] args){
+        Tiger demo = new Tiger();
+        demo.hunt();
+        demo.roar();
+        demo.feast();
+        
+        Cat test = new Cat();
+        test.eat();
+        test.sleep();
+        test.purr();}}
+
+
+Adding an subclass to a java program (derived)
+Original:
+class Calculation{
+ int z;
+ public void addition(int x, int y){
+   z = x+y;
+   System.out.println("The sum of the given numbers:"+z);}
+   public void Subtraction(int x,int y){
+     z = x-y;System.out.println("The difference between the given numbers:"+z);}
+}
+
+public class My_Calculation extends Calculation{
+ public void multiplication(int x, int y){
+   z = x*y;System.out.println("The product of the given numbers:"+z);}
+   public static void main(String args[]){
+     int a = 20, b = 10;
+     My_Calculation demo = new My_Calculation();
+     demo.addition(a, b);
+     demo.Subtraction(a, b);
+     demo.multiplication(a, b);}
+}
+
+My version:
+class Calculation{
+    int z;
+    public void addition(int x, int y){
+        z = x+y; System.out.println("The sum of the given numbers is: "+z);}
+        public void Subtraction(int x,int y){
+        z = x-y; System.out.println("The difference between the given numbers is: "+z);}
+}
+
+class Their_Calculation extends Calculation{
+    public void multiplication(int x, int y){
+        z = x*y; System.out.println("The product of the given numbers is: "+z);}
+}
+
+class My_Calc extends Calculation{
+    public void division(int x, int y){
+          z = x/y; System.out.println("The quotient of the given numbers is: "+z);}
+}
+
+public class MyClass {
+    public static void main(String args[]){
+        int a = 5, b = 18;
+        Their_Calculation demo = new Their_Calculation();
+        My_Calc test = new My_Calc();
+        demo.addition(a, b);
+        test.Subtraction(a, b);
+        demo.multiplication(a, b);
+        test.division(a,b);
+    }
+}
+
+
+Add two questions to a java program (derived)
+
+Original:
+import java.util.Scanner;
+
+class Question{
+    private String text;
+    private String answer;
+    public Question(){text = "";answer = "";}
+    public void setText(String questionText){text = questionText;}
+    public void setAnswer(String correctResponse){answer = correctResponse;}
+    public boolean checkAnswer(String response){return response.equals(answer);}
+    public void display(){System.out.println(text);}
+}
+
+public class InteractiveQuestions{ 
+  public static void main(String[] args){
+    Scanner in = new Scanner(System.in);
+    Question q = new Question();
+    q.setText("Who was the inventor of Java?");
+    q.setAnswer("James Gosling");
+        
+    q.display();
+    System.out.print("Your answer: ");
+    String response = in.nextLine();
+    System.out.println(q.checkAnswer(response));
+  }
+}
+    
+My version:
+import java.util.Scanner;
+
+class Question{
+    private String text;
+    private String answer;
+    public Question(){text = "";answer = "";}
+    public void setText(String questionText){text = questionText;}
+    public void setAnswer(String correctResponse){answer = correctResponse;}
+    public boolean checkAnswer(String response){return response.equals(answer);}
+    public void display(){System.out.println(text);}
+}
+
+public class InteractiveQuestions{ 
+  public static void main(String[] args){
+    Scanner in = new Scanner(System.in);
+    Question x = new Question();
+    x.setText("Who was the inventor of Java?");
+    x.setAnswer("James Gosling");
+    x.display();
+    System.out.print("Your answer: ");
+    String response = in.nextLine();
+    System.out.println(x.checkAnswer(response));
+    
+    Question y = new Question();
+    y.setText("who was the 35th president?");
+    y.setAnswer("John Kennedy");
+    y.display();
+    System.out.print("Your answer: ");
+    response = in.nextLine();
+    System.out.println(y.checkAnswer(response));
+    
+    Question z = new Question();
+    z.setText("what is the 18rd maro game released ?");
+    z.setAnswer("Super Mario Maker");
+    z.display();
+    System.out.print("Your answer: ");
+    response = in.nextLine();
+    System.out.println(z.checkAnswer(response));
+  }
+}
+
+Java program that calls a method with a selection statement,Uses inheritance,prints out a multidimensional array, and finds the average of three numbers.
+
+import java.util.Random;
+
+class inheritanceP{
+    int z;
+    public int Average(int a,int b){return z=(a+b)/2;}
+}
+
+class inheritanceC extends inheritanceP{
+    public int average(int a,int b,int c){return z=(a+b+c)/3;}
+}    
+
+public class Final{
+
+    static void SwitchStatment(int a){
+        String Statment;switch(a){
+            case 1: Statment = "hi"; break;
+            case 2: Statment = "testing 1 2 3"; break;
+            case 3: Statment = "hello"; break;
+            case 4: Statment = "Without a doubt"; break;
+            case 5: Statment = "Yes definitely"; break;
+            case 6: Statment = "failure"; break;
+            case 7: Statment = "good day"; break;
+            case 8: Statment = "why did i go with 10?"; break;
+            case 9: Statment = "nope"; break;
+            default:Statment = "something went wrong";}
+            System.out.println(Statment);
+        }
+    
+    public static void main(String []args){
+        inheritanceC inheritanceN = new inheritanceC();
+        Random rand = new Random();
+        
+        int A =rand.nextInt(10)+1, B =rand.nextInt(10)+1, C =rand.nextInt(10)+1;
+        
+        System.out.println("the average is: "+inheritanceN.average(A,B,C));
+        SwitchStatment(A);
+        
+        int[][] Array = {{5,4,2}, {6,6,5}, {7,3,3}};
+            for(int i=0;i<Array.length;i++){System.out.println("");
+                for(int j=0;j<Array[i].length;j++){
+                    System.out.print(Array[i][j]+" ");}}
+        
+    }
+}
+
+
+
